@@ -47,6 +47,7 @@ export const RestaurantCategories = ({
             alt={restaurant.name}
             height={45}
             width={45}
+            priority={true}
           />
           <div>
             <h2 className="text-lg font-semibold">{restaurant.name}</h2>
