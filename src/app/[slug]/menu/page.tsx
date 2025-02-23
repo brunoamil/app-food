@@ -31,7 +31,7 @@ const RestaurantMenuPage = async ({
     },
   } });
 
-  console.table(restaurant?.menuCategories)
+  // console.table(restaurant?.menuCategories)
 
   if (!restaurant){
     notFound();
